@@ -23,4 +23,7 @@ phpinfo(INFO_ENVIRONMENT);    //phpinfo(16);
 echo"<h3 align='center'> PHP License information</h3>";
 phpinfo(INFO_LICENSE);     //phpinfo(64);
 
+
+// I added one Line
+
 ?>
