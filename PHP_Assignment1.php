@@ -1,10 +1,7 @@
-<html>
-<body>
-<h2 align="center">Assignment 1</h2>
 
 
-</body>
-</html>
+
+
 
 <?php
 
