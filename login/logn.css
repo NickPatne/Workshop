@@ -1,0 +1,141 @@
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: url(comp-user.jpg);
+    background-size: cover;
+}
+.signin
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 90px;
+    height: 430px;
+    margin-left: 180x;
+    transition: transform 0.4s ease-in;
+    border-radius: 30px;
+   
+    
+}
+.signin:hover{
+    transform: scale(1.06);
+    box-shadow: 3px 3px 9px 5px rgb(146, 141, 141);
+}
+form
+{
+    width: 240px;
+    text-align: center;
+}
+input
+{
+    width: 245px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    border: none;
+    width: 190px;
+    background-image: linear-gradient(to right,rgb(124, 118, 118),rgb(241, 238, 238));
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+   
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    
+    animation: nick-animation 8s linear infinite;
+    /* filter: blur(2px); */
+    
+}
+input[type=button]:hover
+{
+    /* color: #fff;
+    background-color: black; */
+    /* background-image: linear-gradient(to left,rgb(255, 155, 155),rgb(255, 255, 145)) */
+
+    transform: translateY(-4px);
+
+
+
+
+
+}
+
+@keyframes nick-animation{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+h2
+{
+    color: white;
+    
+}
+a
+{
+    color: yellow;
+    text-decoration: blink;
+}
+a:hover
+{
+    color: skyblue;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.signin-bottom{
+ display: flex;
+ flex-direction: row;
+    width: 100%;
+    margin: 5px;
+    font-size: 14px;
+}
+.signin-bottom .reset-password{
+    padding: 2px;
+    margin: 5px;
+    position: relative;
+    left:-9%;
+}
+
+.signin-bottom .forget-password{
+    padding: 2px;
+    margin: 5px;
+    position: relative;
+    left:10%;
+}
+.new-account{
+
+    position: relative;
+    left:-19%;
+    width:100% ;
+    margin: 50px;
+    font-size: 14px;
+
+}
+
+::placeholder {
+    color:rgb(255, 255, 255);
+    opacity: 0.8; /* Firefox */
+}
