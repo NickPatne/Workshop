@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title>View Users</title>
+   <title>Display Users Data</title>
 
    <style>
 body{
