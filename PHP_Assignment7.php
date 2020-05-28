@@ -6,7 +6,7 @@
    <style>
 body{
 
-background:url(back2.jpg);
+background:url(back.jpg);
 background-size: cover;
 
 }
