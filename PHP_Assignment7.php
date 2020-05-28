@@ -85,7 +85,7 @@ h1{
    $users = pg_query("SELECT * FROM info");
    while ($u = pg_fetch_row($users)) {
    ?>
-   <option value="<?php echo $u[2] ?>"> <?php echo $u[2] ?> </option>
+   <option value="<?php echo $u['username'] ?>"> <?php echo $u['username'] ?> </option>
    <?php
    }
    ?>
